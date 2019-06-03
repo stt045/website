@@ -47,33 +47,50 @@ let resumeData = {
   },
   portfolio: {
     one: {
-      "image": "",
-      "title": "",
-      "description": ""
+      "image": "images/portfolio/solemate.jpg",
+      "title": "Solemate",
+      "description": "Contributed to development of iOS application for Solemate Solutions.",
+      "intro": "iOS Application",
+      "detailsURL": ""
     },
     two: {
       "image": "",
-      "title": "",
-      "description": ""
+      "title": "ParkNow",
+      "description": "Web App, designed to help UCSD students find parking on campus",
+      "intro": "Mobile Web App",
+      "detailsURL": ""
     },
     three: {
       "image": "",
-      "title": "",
-      "description": ""
+      "title": "project3",
+      "description": "",
+      "intro": "",
+      "detailsURL": ""
     },
     four: {
       "image": "",
-      "title": "",
-      "description": ""
+      "title": "project4",
+      "description": "",
+      "intro": "",
+      "detailsURL": ""
     }
   },
   skills: {
     "description": "Listed below are the skills and technologies I current work with. I provided a scale to illustrate how familiar and comfortable I am using these skills in practice."
   },
   testimonials: {
-    "one": "",
-    "two": "",
-    "three": ""
+    one: {
+      "quote": "Insert motivational quote",
+      "cite": "John Doe"
+    },
+    two: {
+      "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+      "cite": "Winston Churchill"
+    },
+    three: {
+      "quote": "WHOOOOOOOOOOOOO lives in a pineapple under the sea? SPONGEBOB SQUARE PANTS!",
+      "cite": "Pirate Man :)"
+    }
   },
   contact: {
 

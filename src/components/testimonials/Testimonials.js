@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Testimonials extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -14,20 +15,20 @@ class Testimonials extends Component {
                 <ul className="slides">
                   <li>
                     <blockquote>
-                      <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                      </p>
-                      <cite>Steve Jobs</cite>
+                      <p>{resumeData.testimonials.one.quote}</p>
+                      <cite>{resumeData.testimonials.one.cite}</cite>
                     </blockquote>
                   </li> {/* slide ends */}
                   <li>
                     <blockquote>
-                      <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                      </p>
-                      <cite>Mr. Adobe</cite>
+                      <p>{resumeData.testimonials.two.quote}</p>
+                      <cite>{resumeData.testimonials.two.quote}</cite>
+                    </blockquote>
+                  </li> {/* slide ends */}
+                  <li>
+                    <blockquote>
+                      <p>{resumeData.testimonials.three.quote}</p>
+                      <cite>{resumeData.testimonials.three.cite}</cite>
                     </blockquote>
                   </li> {/* slide ends */}
                 </ul>
