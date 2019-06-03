@@ -59,7 +59,7 @@ class Resume extends Component {
             <p>{resumeData.skills.description}</p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Javacript (jquery, node, express)</em></li>
+                <li><span className="bar-expand photoshop" /><em>Javacript (react, jquery, node, express)</em></li>
                 <li><span className="bar-expand illustrator" /><em>Swift</em></li>
                 <li><span className="bar-expand wordpress" /><em>C/C++, JAVA</em></li>
                 <li><span className="bar-expand css" /><em>HTML/CSS</em></li>

@@ -2,12 +2,12 @@
 let resumeData = {
   header: {
     "name": "Steven Tran",
-    "role": "Full Stack and Mobile Developer",
+    "role": "Hi! I'm a Full Stack and Mobile Developer based in San Diego, CA",
     "roleDescription": "I like to code things :)"
   },
   about: {
     "headshot": "images/Headshot.jpg",
-    "blurb": "I am a software developer and an incoming senior at UCSD. I love creating and programming. I enjoy designing and developing software meant to create and inspire change. I am actively gaining knowledge through course work and personal initiatives to better my skills in web and iOS development. Outside of academia and software, I'm an avid car fanatic and gamer."
+    "blurb": "I am a software developer and an incoming senior at UCSD. I enjoy designing and developing software meant to create and inspire change. I am actively gaining knowledge through course work and personal initiatives to better my skills in web and iOS development. Outside of academia and software, I'm an avid car fanatic and gamer."
   },
   resume: {
     education: {
@@ -48,23 +48,27 @@ let resumeData = {
   portfolio: {
     one: {
       "image": "images/portfolio/solemate.jpg",
-      "title": "Solemate",
-      "description": "Contributed to development of iOS application for Solemate Solutions.",
+      "title": "Solemate - WIP",
+      "titleModal": "Solemate - Work In Progress",
+      "description": "Solemate Solutions is a UCSD based startup that aims to assist users in the rehabilitation process of an injury in the lower extremity. I Contributed to development of iOS application for Solemate.",
       "intro": "iOS Application",
       "detailsURL": ""
     },
     two: {
-      "image": "",
+      "image": "images/portfolio/parkNow.png",
+      "imageModal": "images/portfolio/parkNow2.png",
       "title": "ParkNow",
-      "description": "Web App, designed to help UCSD students find parking on campus",
+      "titleModal": "ParkNow",
+      "description": "Developed in groups of 3, ParkNow is web app, designed to help UCSD students find parking on campus.",
       "intro": "Mobile Web App",
-      "detailsURL": ""
+      "detailsURL": "images/portfolio/Poster.PNG"
     },
     three: {
-      "image": "",
-      "title": "project3",
-      "description": "",
-      "intro": "",
+      "image": "images/portfolio/console.jpg",
+      "title": "QueueUp - WIP",
+      "titleModal": "QueueUp - Work In Progress",
+      "description": "QueueUp is a looking for game (LFG) service designed to connect skilled gamers and create new relationships. ",
+      "intro": "React.js Website",
       "detailsURL": ""
     },
     four: {

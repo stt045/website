@@ -22,7 +22,7 @@ class Testimonials extends Component {
                   <li>
                     <blockquote>
                       <p>{resumeData.testimonials.two.quote}</p>
-                      <cite>{resumeData.testimonials.two.quote}</cite>
+                      <cite>{resumeData.testimonials.two.cite}</cite>
                     </blockquote>
                   </li> {/* slide ends */}
                   <li>
