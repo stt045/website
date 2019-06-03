@@ -58,7 +58,7 @@ class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt src="{resumeData.portfolio.four.image}" />
+                    <img alt src={resumeData.portfolio.four.image} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>{resumeData.portfolio.four.title}</h5>
@@ -69,7 +69,7 @@ class Portfolio extends Component {
                   </a>
                 </div>
               </div> 
-              
+
             </div> 
           </div> 
           
@@ -113,14 +113,14 @@ class Portfolio extends Component {
             </div>
           </div>{/* modal-03 End */}
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src={resumeData.portfolio.four.image} alt />
+            <img className="scale-with-grid" src={resumeData.portfolio.four.imageModal} alt />
             <div className="description-box">
               <h4>{resumeData.portfolio.four.title}</h4>
               <p>{resumeData.portfolio.four.description}</p>
               <span className="categories"><i className="fa fa-tag" />{resumeData.portfolio.four.intro}</span>
             </div>
             <div className="link-box">
-              <a href="https://github.com/stt045" target="_blank">Details</a>
+              <a href={resumeData.portfolio.four.detailsURL}>Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}

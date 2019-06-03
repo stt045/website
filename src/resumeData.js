@@ -41,7 +41,7 @@ let resumeData = {
         "jobTitle": "iOS Developer",
         "start": "April 2019 - ",
         "end": "June 2019",
-        "description": "Solemate Solutions boasts a smart shoe insole that assists users in the rehabilitation process of an injury in the lower extremity."
+        "description": "Solemate Solutions is a UCSD based startup that boasts a smart shoe insole that assists users in the rehabilitation process of an injury in the lower extremity. I worked on the development of the iOS application, interfacing with the pressure senors within the insoles, via bluetooth."
       }
     }
   },
@@ -52,11 +52,11 @@ let resumeData = {
       "titleModal": "Solemate - Work In Progress",
       "description": "Solemate Solutions is a UCSD based startup that aims to assist users in the rehabilitation process of an injury in the lower extremity. I Contributed to development of iOS application for Solemate.",
       "intro": "iOS Application",
-      "detailsURL": ""
+      "detailsURL": "https://www.f6s.com/solematesolutions"
     },
     two: {
-      "image": "images/portfolio/parkNow.png",
-      "imageModal": "images/portfolio/parkNow2.png",
+      "image": "images/portfolio/ParkNow.jpeg",
+      "imageModal": "images/portfolio/modals/parkNow2.png",
       "title": "ParkNow",
       "titleModal": "ParkNow",
       "description": "Developed in groups of 3, ParkNow is web app, designed to help UCSD students find parking on campus.",
@@ -72,10 +72,11 @@ let resumeData = {
       "detailsURL": ""
     },
     four: {
-      "image": "",
-      "title": "project4",
-      "description": "",
-      "intro": "",
+      "image": "images/portfolio/react.jpeg",
+      "imageModal": "images/portfolio/modals/m-react.png",
+      "title": "My Website",
+      "description": "I developed this website you're looking at with React.js, jQuery, and HTML/CSS.",
+      "intro": "React.js Website",
       "detailsURL": ""
     }
   },
@@ -96,13 +97,9 @@ let resumeData = {
       "cite": "Pirate Man :)"
     }
   },
-  contact: {
-
-  },
   footer: {
-
+    "copyright": "© Copyright 2019 Steven Tran"
   }
-  
 }
 
 export default resumeData;
