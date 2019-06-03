@@ -1,19 +1,20 @@
 {
-  "name": "stt045.github.io",
-  "homepage": "https://stt045.github.io/stt045.github.io",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://stt045.github.io/website",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "gh-pages": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^3.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "master -d build",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
