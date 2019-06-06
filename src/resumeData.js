@@ -51,7 +51,7 @@ let resumeData = {
       "image": "images/portfolio/solemate.jpg",
       "title": "Solemate - WIP",
       "titleModal": "Solemate - Work In Progress",
-      "description": "Solemate Solutions is a UCSD based startup that aims to assist users in the rehabilitation process of an injury in the lower extremity. I Contributed to development of iOS application for Solemate.",
+      "description": "Solemate Solutions is a UCSD based startup that aims to assist users in the rehabilitation process of an injury in the lower extremity by utilizing smart shoe insoles. I contributed to the development of iOS application for Solemate. I implemented user authentification systems and data visualization of information received from the sensors in the hardware insoles.",
       "intro": "iOS Application",
       "detailsURL": "https://www.f6s.com/solematesolutions"
     },
@@ -86,16 +86,16 @@ let resumeData = {
   },
   testimonials: {
     one: {
-      "quote": "Insert motivational quote",
-      "cite": "John Doe"
+      "quote": "The only way to do great work is to love what you do.",
+      "cite": "Steve Jobs"
     },
     two: {
       "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
       "cite": "Winston Churchill"
     },
     three: {
-      "quote": "WHOOOOOOOOOOOOO lives in a pineapple under the sea? SPONGEBOB SQUARE PANTS!",
-      "cite": "Pirate Man :)"
+      "quote": "The belief that complex systems require armies of designers and programmers is wrong. A system that is not understood in its entirety, or at least to a significant degree of detail by a single individual, should probably not be built. ",
+      "cite": "Niklaus Wirth"
     }
   },
   footer: {
