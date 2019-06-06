@@ -22,7 +22,7 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="images/Headshot.jpg" className="button" target="_blank"><i className="fa fa-download"/>Download Resume</a>
+                  <a href={resumeData.about.resumeImage} className="button" target="_blank"><i className="fa fa-download"/>Download Resume</a>
                 </p>
               </div>
             </div> {/* end row */}

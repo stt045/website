@@ -59,12 +59,11 @@ class Resume extends Component {
             <p>{resumeData.skills.description}</p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Javacript (react, jquery, node, express)</em></li>
-                <li><span className="bar-expand illustrator" /><em>Swift</em></li>
-                <li><span className="bar-expand wordpress" /><em>C/C++, JAVA</em></li>
+                <li><span className="bar-expand javascript" /><em>Javacript (react, jquery, node, express)</em></li>
+                <li><span className="bar-expand swift" /><em>Swift</em></li>
+                <li><span className="bar-expand oop" /><em>C/C++, JAVA</em></li>
                 <li><span className="bar-expand css" /><em>HTML/CSS</em></li>
-                <li><span className="bar-expand html5" /><em>Something</em></li>
-                <li><span className="bar-expand jquery" /><em>git</em></li>
+                <li><span className="bar-expand git" /><em>Git Version Control</em></li>
               </ul>
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}

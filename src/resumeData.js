@@ -7,7 +7,8 @@ let resumeData = {
   },
   about: {
     "headshot": "images/Headshot.jpg",
-    "blurb": "I am a software developer and an incoming senior at UCSD. I enjoy designing and developing software meant to create and inspire change. I am actively gaining knowledge through course work and personal initiatives to better my skills in web and iOS development. Outside of academia and software, I'm an avid car fanatic and gamer."
+    "blurb": "I am a software developer and an incoming senior at UCSD. I enjoy designing and developing software meant to create and inspire change. I am actively gaining knowledge through course work and personal initiatives to better my skills in web and iOS development. Outside of academia and software, I'm an avid car fanatic and gamer.",
+    "resumeImage": "images/portfolio/resumeImage.png"
   },
   resume: {
     education: {
@@ -59,15 +60,15 @@ let resumeData = {
       "imageModal": "images/portfolio/modals/parkNow2.png",
       "title": "ParkNow",
       "titleModal": "ParkNow",
-      "description": "Developed in groups of 3, ParkNow is web app, designed to help UCSD students find parking on campus.",
+      "description": "Developed in groups of 3, ParkNow is web app, designed to help UCSD students find parking on campus. This project focused on the principals of interaction design and usability.",
       "intro": "Mobile Web App",
       "detailsURL": "images/portfolio/Poster.PNG"
     },
     three: {
       "image": "images/portfolio/console.jpg",
-      "title": "QueueUp - WIP",
-      "titleModal": "QueueUp - Work In Progress",
-      "description": "QueueUp is a looking for game (LFG) service designed to connect skilled gamers and create new relationships. ",
+      "title": "QueUp - WIP",
+      "titleModal": "QueUp - Work In Progress",
+      "description": "QueUp is a looking for game (LFG) service designed to connect like-minded gamers and create new relationships. I am developing the front-end website using React.",
       "intro": "React.js Website",
       "detailsURL": ""
     },
@@ -99,6 +100,12 @@ let resumeData = {
   },
   footer: {
     "copyright": "© Copyright 2019 Steven Tran"
+  },
+  links: {
+    "facebook": "https://www.facebook.com/steven.tran.0283",
+    "instagram": "https://www.instagram.com/steventraaan/",
+    "linkedin": "https://www.linkedin.com/in/steventran045/",
+    "github": "https://github.com/stt045"
   }
 }
 

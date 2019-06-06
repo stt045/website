@@ -8,10 +8,10 @@ class Footer extends Component {
           <div className="row">
             <div className="twelve columns">
               <ul className="social-links">
-                <li><a href="https://www.facebook.com/steven.tran.0283" target="_blank"><i className="fa fa-facebook" target="_blank"/></a></li>
-                <li><a href="https://www.instagram.com/steventraaan/" target="_blank"><i className="fa fa-instagram" target="_blank"/></a></li>
-                <li><a href="https://github.com/stt045" target="_blank"><i className="fa fa-github" /></a></li>
-                <li><a href="https://www.linkedin.com/in/steventran045/" target="_blank"><i className="fa fa-linkedin" target="_blank"/></a></li>
+                <li><a href={resumeData.links.facebook} target="_blank"><i className="fa fa-facebook" /></a></li>
+                <li><a href={resumeData.links.instagram} target="_blank"><i className="fa fa-instagram" /></a></li>
+                <li><a href={resumeData.links.github} target="_blank"><i className="fa fa-github" /></a></li>
+                <li><a href={resumeData.links.linkedin} target="_blank"><i className="fa fa-linkedin" /></a></li>
               </ul>
               <ul className="copyright">
                 <li>{resumeData.footer.copyright}</li> 
