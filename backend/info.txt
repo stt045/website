@@ -1,0 +1,22 @@
+Server Information
+
+Backend Code is sourced from: 
+https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
+
+mLab server deployment link:
+https://cloud.mongodb.com/v2/5d0174cdd5ec139f4ecd7c5c#security/database/users
+
+
+
+
+MongoDB hosted through mLabs
+mLabs account information:
+- stt045@ucsd.edu
+- 1f5f8a1E@
+
+User Credential: 
+- steventraaan
+- abc6230283
+
+Driver Connection String:
+- mongodb+srv://steventraaan:<password>@cluster0-vmry6.mongodb.net/test?retryWrites=true&w=majority
