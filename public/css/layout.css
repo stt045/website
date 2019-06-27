@@ -11,9 +11,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
    g. Testimonials Section
-   h. Contact Section
    i. Footer
 
 ===================================================================== */
@@ -27,8 +25,6 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
-/* Original header image route: "../images/header-background.jpg" */
 
 header {
    position: relative;
@@ -97,7 +93,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #82AAFF; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -119,7 +115,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #82AAFF; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -196,16 +192,16 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #82AAFF; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: white;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #8F8F8F;
 }
 #about .profile-pic {
    position: relative;
@@ -244,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #82AAFF; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -253,7 +249,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #82AAFF;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -607,12 +603,6 @@ ul#nav li.current a { color: #F06000; }
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -626,8 +616,6 @@ call-to-action .button {
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
-
-/* Original testimonial image route: "../images/testimonials-bg.jpg" */
 
 #testimonials {
    background: #1F1F1F url(../images/testImage.jpeg) no-repeat center center;
@@ -774,142 +762,6 @@ call-to-action .button {
     cursor: default;
 }
 
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
-
-#contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
-}
-#contact .section-head { margin-bottom: 42px; }
-
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
-
-#contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
-
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
-}
-#contact .header-col { padding-top: 6px; }
-
-
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 3px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #11ABB0;
-	font-size: 13px;
-}
-#message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
-}
-#message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
-
-#message-warning i,
-#message-success i {
-   margin-right: 10px;
-}
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -993,5 +845,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #82AAFF; }
 
